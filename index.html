@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <!-- header element-->
+    <header class="header">
+        <div>
+            <h3 class="highscore" id="score">Previous Scores</h3>
+        </div>
+        <div>
+            <h3 class="timer">Timer: <span id="timer"></span></h3>
+        </div>
+    </header>
+
+    <!-- header element-->
+    <main class="main-content">
+
+        <!-- home element-->
+        <div class="">
+            <h1 id="header">Javascript Coding Quiz!</h1>
+            <h3 id="subheader">Test your javascript coding knowledge with this simple quiz.<br>The test is not official, it's just a nice way to see how much you know, or don't know, about JavaScript.</h3>
+        </div>
+
+        <!-- question element-->
+        <section class="quiz-containter">
+            <div id="question-container" class="hide">
+                <div id="question" class="question">Question 1</div>
+                <div class="btn-grid" id="choice">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+            </div>
+        </section>
+
+    </main> 
+
+    <!-- control button element-->
+    <section class="btn-controls">
+        <button class="start btn" id="start">Start</button>
+        <button class="next btn hide" id="next">Next Question</button>
+    </section>
+
+    <!-- score result element-->
+    <section id="result" class="result"></section>
+    <section>
+        <ul class="viewscore" id="viewscore">
+        </ul>
+    </section>
+
+    <footer></footer>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
